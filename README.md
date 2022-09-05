@@ -10,6 +10,15 @@ There are several main steps
 
 ##Step One:
 
+Import go sdk, the code is:
+```go
+    import (
+	    "fmt"
+	    "github.com/feature-flags-co/ffc-go-sdk/ffc"
+	    "github.com/feature-flags-co/ffc-go-sdk/model"
+    )
+
+```
 Get the project Secret key from  [featureflag.co](https://featureflag.co/) platform.
 like this 
 ```
